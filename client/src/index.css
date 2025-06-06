@@ -1,0 +1,9 @@
+/* ─── Tailwind Directives ─────────────────────────────────────────────────── */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Optional: Global Overrides ─────────────────────────────────────────── */
+body {
+  @apply bg-gray-100 text-gray-800;
+}
